@@ -1,0 +1,74 @@
+node_modules/
+.env
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+uploads/
+__pycache__/
+```
+
+4. **Add your files to staging**:
+```bash
+git add .
+```
+
+5. **Commit your changes**:
+```bash
+git commit -m "Initial commit"
+```
+
+6. **Push to GitHub**:
+```bash
+git push -u origin main
+```
+
+**Important Notes**:
+- Make sure you have [Git installed](https://git-scm.com/downloads) on your system
+- You need to [create a GitHub repository](https://github.com/new) first if you haven't already
+- You should be logged in to GitHub in your terminal or have SSH keys set up
+- Replace `main` with `master` in the push command if that's your default branch name
+
+If you're using VS Code, you can also use the built-in Git features:
+1. Click the Source Control icon in the sidebar (or press `Ctrl+Shift+G`)
+2. Click "Initialize Repository"
+3. Stage your changes
+4. Enter a commit message
+5. Click the "Publish Branch" button// filepath: .gitignore
+node_modules/
+.env
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+uploads/
+__pycache__/
+```
+
+4. **Add your files to staging**:
+```bash
+git add .
+```
+
+5. **Commit your changes**:
+```bash
+git commit -m "Initial commit"
+```
+
+6. **Push to GitHub**:
+```bash
+git push -u origin main
+```
+
+**Important Notes**:
+- Make sure you have [Git installed](https://git-scm.com/downloads) on your system
+- You need to [create a GitHub repository](https://github.com/new) first if you haven't already
+- You should be logged in to GitHub in your terminal or have SSH keys set up
+- Replace `main` with `master` in the push command if that's your default branch name
+
+If you're using VS Code, you can also use the built-in Git features:
+1. Click the Source Control icon in the sidebar (or press `Ctrl+Shift+G`)
+2. Click "Initialize Repository"
+3. Stage your changes
+4. Enter a commit message
+5. Click the "Publish Branch" button
